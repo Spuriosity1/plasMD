@@ -8,19 +8,14 @@ Nuclei::Nuclei(const std::string &path){
 // Prints a list of all coordinates of nuclear positions stored in nuclei[]
 void Nuclei::print_nuclei(){
     printf("LIST OF ALL NUCLEAR POSITIONS:\n");
-    for (uint Z = 0; Z < nuclei.size(); Z++) {
-        if (nuclei[Z].size() != 0){
-            printf("Nuclei with Z = %u:\n", Z);
-        }
-        for (uint mZ = 0; mZ < nuclei[Z].size(); mZ++) {
-            vector3_t R = nuclei[Z][mZ];
-            printf("(%lf,%lf,%lf)\n",R.v[0],R.v[1],R.v[2]);
-        }
+    for (uint i=0; i<nuclei.size(); i++) {
+        vector3_t r = nuclei[i].r;
+        printf("Z=%2d, (%3.5lf,%3.5lf,%3.5lf)\n",nuclei[i].Z,r.v[0],r.v[1],r.v[2]);
     }
 }
 
 
-bool zcomp(nuclei_t n1, nucli_t n2){
+bool zcomp(nucleus_t n1, nucleus_t n2){
     return n1.Z < n2.Z;
 }
 
@@ -80,9 +75,9 @@ void Nuclei::import_from(const std::string &path){
             continue;
         } else if (line[0] == 'Z'){
             // New Z value
-            nelectrons += (Zval ==0 ) ? 0 : Zval*nuclei[Zval].size();
             Zval = stoi(line.substr(2));
         } else {
+            nelectrons += Zval;
             // Assume we are reading 3 coordinates
             nucleus.r = read_vector3(line);
             nucleus.Z = Zval;

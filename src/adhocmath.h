@@ -1,6 +1,8 @@
 #ifndef ADHOCMATH_CPP_H
 #define ADHOCMATH_CPP_H
 
+typedef unsigned int uint;
+
 // template recursion -- this looks a little cursed to be honest
 template <unsigned int exponent>
 inline double intpow(double base) {
@@ -11,12 +13,6 @@ template <>
 inline double intpow<0>(double base) {
     return 1;
 }
-
-void Molecule::construct_GTO(){
-}
-
-void Molecule::comp_S(){}
-void Molecule::comp_F(){}
 
 
 // // small brain

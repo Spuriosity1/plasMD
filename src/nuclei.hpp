@@ -13,7 +13,7 @@
 // Not the most general prescription - however, consider how large the need for
 // ununoctium is in your biology
 
-typedef position_t double;
+typedef double position_t;
 
 #define FORMAT_SPECIFICATION "Syntax:\n\
 Z:5\n\

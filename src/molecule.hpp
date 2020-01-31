@@ -1,7 +1,7 @@
 #ifndef MOLECULE_CPP_H
 #define MOLECULE_CPP_H
 
-#include "adhocmath.h"
+// #include "adhocmath.h"
 
 #define GTO_EXPANSION_ORDER 10
 
@@ -9,16 +9,17 @@
 
 #include "nuclei.hpp"
 
-// Structure for storing atomic population
+// Structure for storing population associated with a particular nucleus
 typedef struct{
-    uint Z
-} bound_t;
+    uint Z;
+} electron_t;
 
 
 class Molecule : public Nuclei {
 public:
-    Molecule(uint n);
-
+    Molecule();
+protected:
+    std::vector<electron_t> orbitals;
 };
 
 

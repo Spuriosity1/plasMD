@@ -19,11 +19,10 @@ int main(int argc, char const *argv[]) {
     }
     std::string path(argv[1]);
     {
-        Molecule hf;
-        hf.import_from(path);
-        hf.print_nuclei();
+        Molecule m;
+        m.import_from(path);
+        m.print_nuclei();
     }
-    printf("Hello there\n");
 
 
 

@@ -1,5 +1,5 @@
 #include "molecule.hpp"
 
 Molecule::Molecule(){
-    orbitals.resize(nuclei.size);
+    orbitals.resize(nuclei.size());
 }
