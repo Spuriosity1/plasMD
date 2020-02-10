@@ -1,25 +1,36 @@
 #ifndef MOLECULE_CPP_H
 #define MOLECULE_CPP_H
 
-// #include "adhocmath.h"
-
 #define GTO_EXPANSION_ORDER 10
+#define BOUND_MAX_N 6
 
 // This class contains all of the electronic information involved in the molecular solution
 
 #include "nuclei.hpp"
 
-// Structure for storing population associated with a particular nucleus
+typedef double data_t;
+typedef unsigned char occ_t;
+
 typedef struct{
-    uint Z;
-} electron_t;
+    int n;
+    std::vector<data_t> v;
+} free_t;
+
+
+typedef struct{
+    free_t free;
+    occ_t* bound[BOUND_MAX_N];
+} orbital_t;
+// Structure for storing population associated with a particular nucleus
+
 
 
 class Molecule : public Nuclei {
 public:
     Molecule();
+    void print();
 protected:
-    std::vector<electron_t> orbitals;
+    std::vector<orbital_t> orbitals;
 };
 
 

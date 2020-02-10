@@ -1,7 +1,6 @@
 #ifndef ADHOCMATH_CPP_H
 #define ADHOCMATH_CPP_H
 
-typedef unsigned int uint;
 
 // template recursion -- this looks a little cursed to be honest
 template <unsigned int exponent>

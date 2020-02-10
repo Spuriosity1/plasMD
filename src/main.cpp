@@ -1,10 +1,10 @@
 #include <iostream>
 #include "molecule.hpp"
 
-// Reqisite Knowledge
 
 
-// #include "hartree-fock.hpp"
+
+
 #include "molecule.hpp"
 #include <iostream>
 // CALL SEQUENCE
@@ -18,11 +18,11 @@ int main(int argc, char const *argv[]) {
         exit(EXIT_FAILURE);
     }
     std::string path(argv[1]);
-    {
-        Molecule m;
-        m.import_from(path);
-        m.print_nuclei();
-    }
+
+    Molecule m;
+    m.import_from(path);
+    m.print();
+
 
 
 

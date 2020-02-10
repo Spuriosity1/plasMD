@@ -6,7 +6,7 @@ Nuclei::Nuclei(const std::string &path){
 }
 
 // Prints a list of all coordinates of nuclear positions stored in nuclei[]
-void Nuclei::print_nuclei(){
+void Nuclei::print(){
     printf("LIST OF ALL NUCLEAR POSITIONS:\n");
     for (uint i=0; i<nuclei.size(); i++) {
         vector3_t r = nuclei[i].r;

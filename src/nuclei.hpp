@@ -15,6 +15,7 @@
 
 typedef double position_t;
 
+
 #define FORMAT_SPECIFICATION "Syntax:\n\
 Z:5\n\
 100 22 33\n\
@@ -30,7 +31,7 @@ typedef struct {
 
 typedef struct{
     vector3_t r;
-    uint Z;
+    unsigned Z;
 } nucleus_t;
 
 class Nuclei{
@@ -38,8 +39,8 @@ public:
     Nuclei() {};
     Nuclei(const std::string &path);
     void import_from(const std::string &path);
-    void print_nuclei();
-    uint nelectrons;
+    void print();
+    unsigned nelectrons;
     void save_as(const std::string &path);
 private:
     vector3_t read_vector3(std::string line);
