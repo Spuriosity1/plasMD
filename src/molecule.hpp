@@ -28,9 +28,9 @@ typedef struct{
 class Molecule : public Nuclei {
 public:
     Molecule();
-    void print();
 protected:
     std::vector<orbital_t> orbitals;
+
 };
 
 
