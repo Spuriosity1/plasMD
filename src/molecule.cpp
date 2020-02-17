@@ -2,20 +2,23 @@
 
 Molecule::Molecule(){
     orbitals.resize(nuclei.size());
+    for (size_t i = 0; i < nuclei.size(); i++) {
+        orbitals[i]=allocate(nuclei[i].Z);
+    }
+}
+
+
+
+orbital_t allocate(int Z){
     // Initialises to a ground state containing num electrons
     for (size_t n = 1; n <= BOUND_MAX_N; n++) {
         bound[n-1] = (occ_t*) malloc(sizeof(occ_t)*n);
-        for (occ_t l = 0; l < n && num > 0; l++) {
-            if (num < 2*(2*l+1)){
-                bound[n-1][l] = num;
-                num = 0;
-            } else {
-                bound[n-1][l] = 2*(2*l+1);
-                num -= 2*(2*l+1);
-            }
-        }
     }
+    // Degeneracy given by 2(2l+1)
+    // Allocate in order 1s, 2s, 2p, 3s, 3p, 4s, 3d,
+    // TODO: allocate in appropriate order
 }
+
 
 
 
