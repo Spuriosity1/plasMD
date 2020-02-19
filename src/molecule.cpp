@@ -7,18 +7,39 @@ Molecule::Molecule(){
     }
 }
 
-
-
-orbital_t allocate(int Z){
-    // Initialises to a ground state containing num electrons
-    for (size_t n = 1; n <= BOUND_MAX_N; n++) {
-        bound[n-1] = (occ_t*) malloc(sizeof(occ_t)*n);
+void Molecule::comp_charges(){
+    for (size_t i = 0; i < orbitals.size(); i++) {
+        orbitals[i].q = nuclei[i].Z - orb_charge(orbitals[i]);
     }
+}
+
+double orb_charge(orbital_t orb){
+    for (size_t n = 1; n <= BOUND_MAX_N; n++) {
+        for (size_t l = 0; l < n; l++) {
+            q -= orb.bound[n-1][l];
+        }
+    }
+}
+
+orbital_t Molecule::allocate_orb(int Z){
+    // Initialises to a ground state containing num electrons
+    orbital_t orb;
+    orb.bound.resize(BOUND_MAX_N);
+    for (size_t n = 1; n <= BOUND_MAX_N; n++) {
+        orb.bound[n-1] = new occ_t[n];
+    }
+    orb.q=Z;
     // Degeneracy given by 2(2l+1)
     // Allocate in order 1s, 2s, 2p, 3s, 3p, 4s, 3d,
     // TODO: allocate in appropriate order
+    return orb;
 }
 
+void Molecule::deallocate_orb(orbital_t orb){
+    for (size_t n = 1; n <= BOUND_MAX_N; n++) {
+        delete[] orb.bound[n-1];
+    }
+}
 
 
 

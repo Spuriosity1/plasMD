@@ -14,6 +14,7 @@ typedef double occ_t;
 
 typedef struct{
     occ_t* bound[BOUND_MAX_N];
+    double q;
 } orbital_t;
 // Structure for storing population associated with a particular nucleus
 

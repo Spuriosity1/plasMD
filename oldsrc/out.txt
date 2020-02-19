@@ -1,0 +1,4420 @@
+elendif77.f:3149:2:
+
+ 3149 | # Vibr   # Elct    # Othr    # Mom X   Mom Xfr data pairs
+      |  1
+Warning: Illegal preprocessor directive
+elendif77.f:200:72:
+
+  200 |           DO 10 j = 1, NLEV
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 10 at (1)
+elendif77.f:413:72:
+
+  413 |               IF ( vtemp(i,j) ) 90, 90, 100
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:822:72:
+
+  822 |               IF (pcode(nc,v)-1) 560,570,570
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:829:72:
+
+  829 |               IF (pcode(nc,v)-1) 580,590,590
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:965:72:
+
+  965 |           IF ((rcode + jcode) - 1) 1120,1110,1140
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:966:72:
+
+  966 |  1110     IF (jcode) 1130,1130,1120
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:1160:72:
+
+ 1160 |           DO 10 j = 1, n
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 10 at (1)
+elendif77.f:1167:72:
+
+ 1167 |           DO 20 v = 1, vmax
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 20 at (1)
+elendif77.f:1248:72:
+
+ 1248 |           DO 190 i = 1, n
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 190 at (1)
+elendif77.f:1541:72:
+
+ 1541 |           DO 100 i = 1 , n
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 100 at (1)
+elendif77.f:1555:72:
+
+ 1555 |           DO 150 l = 2 , n
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 150 at (1)
+elendif77.f:1557:72:
+
+ 1557 |               IF (k - l) 130 , 120 , 110
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:1571:72:
+
+ 1571 |           DO 160 l = 2 , n
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 160 at (1)
+elendif77.f:1652:72:
+
+ 1652 |   150 ti(i) = 1.0 - c * ti(i)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 150 at (1)
+elendif77.f:1744:72:
+
+ 1744 |       IF (i + 1 - index) 120 , 110 , 140
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:1934:72:
+
+ 1934 |      +            * qni(e(i + 1),nc,l,1) * b(i)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 110 at (1)
+elendif77.f:2063:72:
+
+ 2063 |       IF (n - nmax) 110 , 110 , 100
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2108:72:
+
+ 2108 |           DO 180 i = 1 , n
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 180 at (1)
+elendif77.f:2471:72:
+
+ 2471 |       IF ((x - aint(x)) - 0.5) 100 , 100 , 110
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2519:72:
+
+ 2519 |           IF (x - em(nc,ko)) 120 , 100 , 100
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2521:72:
+
+ 2521 |               IF (x - em(nc,k)) 160 , 140 , 110
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2528:72:
+
+ 2528 |               IF (x - em(nc,k)) 130 , 140 , 150
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2537:72:
+
+ 2537 |           IF (max - ideg) 170 , 170 , 180
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2539:72:
+
+ 2539 |   180     IF (max - kmax) 200 , 200 , 190
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2544:72:
+
+ 2544 |   210     factor = factor * (x - em(nc,j))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 210 at (1)
+elendif77.f:2548:72:
+
+ 2548 |                   IF (i - j) 220 , 230 , 220
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2551:72:
+
+ 2551 |   240     thest = thest + term
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 240 at (1)
+elendif77.f:2662:72:
+
+ 2662 |           IF (keyr(n) - 2) 110, 50, 70
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2713:72:
+
+ 2713 |           DO 50 j = 1, 20
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 50 at (1)
+elendif77.f:2718:72:
+
+ 2718 |       IF (code - 1) 110 , 100 , 110
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2723:72:
+
+ 2723 |       IF (e(nc,n,l) - y) 290 , 290 , 130
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2725:72:
+
+ 2725 |       IF (e(nc,io,l) - y) 140 , 140 , 160
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2728:72:
+
+ 2728 |           IF (e(nc,i,l) - y) 150 , 280 , 190
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2735:72:
+
+ 2735 |           IF (e(nc,i,l) - y) 180 , 280 , 170
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2743:72:
+
+ 2743 |       IF (max - ideg) 200 , 200 , 210
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2745:72:
+
+ 2745 |   210 IF (max - n) 230 , 230 , 220
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2758:72:
+
+ 2758 |               IF (i - j) 250 , 260 , 250
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2761:72:
+
+ 2761 |   270 qest = qest + term
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 270 at (1)
+elendif77.f:2805:72:
+
+ 2805 |           IF (keyr(n) - 2) 120 , 110 , 100
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2854:72:
+
+ 2854 |       IF (rcode) 100 , 100 , 110
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2859:72:
+
+ 2859 |   130 IF (rcode) 140 , 140 , 150
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:2873:72:
+
+ 2873 |       IF (rcode) 180 , 180 , 190
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+elendif77.f:3010:60:
+
+ 3010 |       DATA blank,char/1h ,1h1,1h2,1h3,1h4,1h5,1h6,1h7,1h8,1h9/
+      |                                                            1
+Warning: Legacy Extension: Hollerith constant at (1)
+elendif77.f:3011:19:
+
+ 3011 |       DATA aster/1h*/
+      |                   1
+Warning: Legacy Extension: Hollerith constant at (1)
+elendif77.f:3017:72:
+
+ 3017 |    20    matrix(nrows+i)=ALOG10(fofe(nrows-i+1))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+elendif77.f:3035:72:
+
+ 3035 |    80    matrix(ll)=f
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 80 at (1)
+elendif77.f:3051:72:
+
+ 3051 |   130    ypr(kn+1)=ypr(kn)+yscal*10.0
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 130 at (1)
+elendif77.f:3073:72:
+
+ 3073 |   190       out(ix)=blank
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 190 at (1)
+elendif77.f:3107:1:
+
+ 3107 | Molecular Nitrogen: data of Phelps & Pitchford
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3108:1:
+
+ 3108 | JILA Data Center Report No. 26 (1985); Phys. Rev. A31, 2932 (1985).
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3109:1:
+
+ 3109 | number of chemical species
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3110:1:
+
+ 3110 | 1
+      | 1
+Error: Statement label without statement at (1)
+elendif77.f:3112:1:
+
+ 3112 | names of chemical species
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3113:2:
+
+ 3113 |  N2
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3113:3:
+
+ 3113 |  N2
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3115:1:
+
+ 3115 | fractional composition of each species
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3116:2:
+
+ 3116 | 1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3116:3:
+
+ 3116 | 1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3118:1:
+
+ 3118 | fractional population of excited states for each species(20entries each)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3119:2:
+
+ 3119 | 0.,      0.,       0.,       0.,       0.,
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3119:3:
+
+ 3119 | 0.,      0.,       0.,       0.,       0.,
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3120:2:
+
+ 3120 | 0.,      0.,       0.,       0.,       0.,
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3120:3:
+
+ 3120 | 0.,      0.,       0.,       0.,       0.,
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3121:2:
+
+ 3121 | 0.,      0.,       0.,       0.,       0.,
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3121:3:
+
+ 3121 | 0.,      0.,       0.,       0.,       0.,
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3122:2:
+
+ 3122 | 0.,      0.,       0.,       0.,       0.
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3122:3:
+
+ 3122 | 0.,      0.,       0.,       0.,       0.
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3124:1:
+
+ 3124 | e/n                tgas
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3124:2:
+
+ 3124 | e/n                tgas
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3125:2:
+
+ 3125 | 1.0E-16            300.
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3125:3:
+
+ 3125 | 1.0E-16            300.
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3127:1:
+
+ 3127 | dt       eps       press     tel       edens     dnebdt   floor
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3128:2:
+
+ 3128 | 1.0E-8   1.E-4     1.00      1.0       1.E+14    0.       1.E-20
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3128:3:
+
+ 3128 | 1.0E-8   1.E-4     1.00      1.0       1.E+14    0.       1.E-20
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3130:1:
+
+ 3130 | ifkey    ionkey    ieekey    ismax     iprint    ifpr     ifpl
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3131:5:
+
+ 3131 | 0        0         0         500       20          0        0
+      |     1
+Warning: Zero is not a valid statement label at (1)
+elendif77.f:3131:10:
+
+ 3131 | 0        0         0         500       20          0        0
+      |          1
+Error: Invalid character in name at (1)
+elendif77.f:3133:1:
+
+ 3133 | vtcode
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3134:5:
+
+ 3134 | 0
+      |     1
+Warning: Zero is not a valid statement label at (1)
+elendif77.f:3134:1:
+
+ 3134 | 0
+      | 1
+Error: Statement label without statement at (1)
+elendif77.f:3136:1:
+
+ 3136 | fion
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3137:2:
+
+ 3137 | 0.
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3139:1:
+
+ 3139 | deltaz   zmatrx
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3140:2:
+
+ 3140 | 0.025     5.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3140:3:
+
+ 3140 | 0.025     5.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3142:1:
+
+ 3142 | Mom Xfr  Vibrat'l  Electronc Dist Fn interpol polynom degrees
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3143:10:
+
+ 3143 | 1        1         1         1
+      |          1
+Error: Invalid character in name at (1)
+elendif77.f:3145:1:
+
+ 3145 | -----------------------------------------------------------------------
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3146:1:
+
+ 3146 | species 1
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3147:2:
+
+ 3147 |  N2
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3147:3:
+
+ 3147 |  N2
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3150:10:
+
+ 3150 | 10       13        1         0         54
+      |          1
+Error: Invalid character in name at (1)
+elendif77.f:3152:1:
+
+ 3152 | molecular weight
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3153:3:
+
+ 3153 | 40.
+      |   1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3155:1:
+
+ 3155 | B0   moment keyr   continuous approx to rotation
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3155:2:
+
+ 3155 | B0   moment keyr   continuous approx to rotation
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3156:2:
+
+ 3156 | 0.0  0.0    2
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3156:3:
+
+ 3156 | 0.0  0.0    2
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3158:1:
+
+ 3158 | N2 MOMENTUM TRANSFER
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3158:2:
+
+ 3158 | N2 MOMENTUM TRANSFER
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3159:1:
+
+ 3159 | scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3160:2:
+
+ 3160 | 1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3160:3:
+
+ 3160 | 1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3161:4:
+
+ 3161 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3162:5:
+
+ 3162 |     .0000       1.1000              .0100       2.1900
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3162:6:
+
+ 3162 |     .0000       1.1000              .0100       2.1900
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3163:5:
+
+ 3163 |     .0150       2.5500              .0200       2.8500
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3163:6:
+
+ 3163 |     .0150       2.5500              .0200       2.8500
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3164:5:
+
+ 3164 |     .0300       3.3800              .0400       3.8200
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3164:6:
+
+ 3164 |     .0300       3.3800              .0400       3.8200
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3165:5:
+
+ 3165 |     .0500       4.3000              .0700       5.0800
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3165:6:
+
+ 3165 |     .0500       4.3000              .0700       5.0800
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3166:5:
+
+ 3166 |     .1000       5.9200              .1200       6.4200
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3166:6:
+
+ 3166 |     .1000       5.9200              .1200       6.4200
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3167:5:
+
+ 3167 |     .1500       7.0800              .1700       7.3800
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3167:6:
+
+ 3167 |     .1500       7.0800              .1700       7.3800
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3168:5:
+
+ 3168 |     .2000       7.8800              .2500       8.4800
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3168:6:
+
+ 3168 |     .2000       7.8800              .2500       8.4800
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3169:5:
+
+ 3169 |     .3000       8.9800              .3500       9.3600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3169:6:
+
+ 3169 |     .3000       8.9800              .3500       9.3600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3170:5:
+
+ 3170 |     .4000       9.6700              .5000       9.8700
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3170:6:
+
+ 3170 |     .4000       9.6700              .5000       9.8700
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3171:5:
+
+ 3171 |     .7000       9.9700             1.0000       9.9600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3171:6:
+
+ 3171 |     .7000       9.9700             1.0000       9.9600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3172:5:
+
+ 3172 |    1.2000      10.3400             1.3000      10.9200
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3172:6:
+
+ 3172 |    1.2000      10.3400             1.3000      10.9200
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3173:5:
+
+ 3173 |    1.5000      11.8700             1.7000      13.4700
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3173:6:
+
+ 3173 |    1.5000      11.8700             1.7000      13.4700
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3174:5:
+
+ 3174 |    1.9000      16.4100             2.1000      16.8500
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3174:6:
+
+ 3174 |    1.9000      16.4100             2.1000      16.8500
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3175:5:
+
+ 3175 |    2.2000      18.0200             2.5000      17.9200
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3175:6:
+
+ 3175 |    2.2000      18.0200             2.5000      17.9200
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3176:5:
+
+ 3176 |    2.8000      21.0000             3.0000      17.2000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3176:6:
+
+ 3176 |    2.8000      21.0000             3.0000      17.2000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3177:5:
+
+ 3177 |    3.3000      15.3000             3.6000      13.9600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3177:6:
+
+ 3177 |    3.3000      15.3000             3.6000      13.9600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3178:5:
+
+ 3178 |    4.0000      12.4200             4.5000      11.1900
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3178:6:
+
+ 3178 |    4.0000      12.4200             4.5000      11.1900
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3179:5:
+
+ 3179 |    5.0000      10.8600             6.0000      10.3600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3179:6:
+
+ 3179 |    5.0000      10.8600             6.0000      10.3600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3180:5:
+
+ 3180 |    7.0000      10.0000             8.0000      10.2000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3180:6:
+
+ 3180 |    7.0000      10.0000             8.0000      10.2000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3181:5:
+
+ 3181 |   10.0000       9.9000            12.0000       9.5000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3181:6:
+
+ 3181 |   10.0000       9.9000            12.0000       9.5000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3182:5:
+
+ 3182 |   15.0000       8.7000            17.0000       8.2600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3182:6:
+
+ 3182 |   15.0000       8.7000            17.0000       8.2600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3183:5:
+
+ 3183 |   20.0000       7.6000            25.0000       6.7000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3183:6:
+
+ 3183 |   20.0000       7.6000            25.0000       6.7000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3184:5:
+
+ 3184 |   30.0000       5.9000            50.0000       3.8000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3184:6:
+
+ 3184 |   30.0000       5.9000            50.0000       3.8000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3185:5:
+
+ 3185 |   75.0000       2.5600           100.0000       1.8000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3185:6:
+
+ 3185 |   75.0000       2.5600           100.0000       1.8000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3186:5:
+
+ 3186 |  150.0000       1.1300           200.0000        .8000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3186:6:
+
+ 3186 |  150.0000       1.1300           200.0000        .8000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3187:5:
+
+ 3187 |  300.0000        .4800           500.0000        .2300
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3187:6:
+
+ 3187 |  300.0000        .4800           500.0000        .2300
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3188:5:
+
+ 3188 |  700.0000        .1430          1000.0000        .0070
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3188:6:
+
+ 3188 |  700.0000        .1430          1000.0000        .0070
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3190:1:
+
+ 3190 | N2 ROTATIONAL
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3190:2:
+
+ 3190 | N2 ROTATIONAL
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3191:1:
+
+ 3191 | energy loss        entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3192:2:
+
+ 3192 | 0.02               28        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3192:3:
+
+ 3192 | 0.02               28        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3193:4:
+
+ 3193 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3194:5:
+
+ 3194 |     .0000        .0000              .0200        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3194:6:
+
+ 3194 |     .0000        .0000              .0200        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3195:5:
+
+ 3195 |     .0300        .0250              .4000        .0250
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3195:6:
+
+ 3195 |     .0300        .0250              .4000        .0250
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3196:5:
+
+ 3196 |     .8000        .0250             1.2000        .0470
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3196:6:
+
+ 3196 |     .8000        .0250             1.2000        .0470
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3197:5:
+
+ 3197 |    1.6000        .0860             1.7000        .0150
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3197:6:
+
+ 3197 |    1.6000        .0860             1.7000        .0150
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3198:5:
+
+ 3198 |    1.8000        .2350             1.9000       1.0800
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3198:6:
+
+ 3198 |    1.8000        .2350             1.9000       1.0800
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3199:5:
+
+ 3199 |    2.0000       1.9000             2.1000       2.0300
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3199:6:
+
+ 3199 |    2.0000       1.9000             2.1000       2.0300
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3200:5:
+
+ 3200 |    2.2000       2.7700             2.3000       2.5000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3200:6:
+
+ 3200 |    2.2000       2.7700             2.3000       2.5000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3201:5:
+
+ 3201 |    2.4000       2.1900             2.5000       2.4000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3201:6:
+
+ 3201 |    2.4000       2.1900             2.5000       2.4000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3202:5:
+
+ 3202 |    2.6000       2.1700             2.7000       1.6200
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3202:6:
+
+ 3202 |    2.6000       2.1700             2.7000       1.6200
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3203:5:
+
+ 3203 |    2.8000       1.3800             2.9000       1.1800
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3203:6:
+
+ 3203 |    2.8000       1.3800             2.9000       1.1800
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3204:5:
+
+ 3204 |    3.0000       1.0300             3.1000        .8400
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3204:6:
+
+ 3204 |    3.0000       1.0300             3.1000        .8400
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3205:5:
+
+ 3205 |    3.2000        .6900             3.3000        .5000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3205:6:
+
+ 3205 |    3.2000        .6900             3.3000        .5000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3206:5:
+
+ 3206 |    3.6000        .1700             5.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3206:6:
+
+ 3206 |    3.6000        .1700             5.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3207:5:
+
+ 3207 |   20.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3207:6:
+
+ 3207 |   20.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3209:1:
+
+ 3209 | N2 VIBRATIONAL (V=1)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3209:2:
+
+ 3209 | N2 VIBRATIONAL (V=1)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3210:1:
+
+ 3210 | energy loss        entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3211:2:
+
+ 3211 | 0.29               30        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3211:3:
+
+ 3211 | 0.29               30        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3212:4:
+
+ 3212 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3213:5:
+
+ 3213 |     .0000        .0000              .2900        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3213:6:
+
+ 3213 |     .0000        .0000              .2900        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3214:5:
+
+ 3214 |     .3000        .0010              .3300        .0017
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3214:6:
+
+ 3214 |     .3000        .0010              .3300        .0017
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3215:5:
+
+ 3215 |     .4000        .0025              .7500        .0037
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3215:6:
+
+ 3215 |     .4000        .0025              .7500        .0037
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3216:5:
+
+ 3216 |     .9000        .0055             1.0000        .0065
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3216:6:
+
+ 3216 |     .9000        .0055             1.0000        .0065
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3217:5:
+
+ 3217 |    1.1000        .0090             1.1600        .0110
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3217:6:
+
+ 3217 |    1.1000        .0090             1.1600        .0110
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3218:5:
+
+ 3218 |    1.2000        .0125             1.2200        .0135
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3218:6:
+
+ 3218 |    1.2000        .0125             1.2200        .0135
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3219:5:
+
+ 3219 |    1.4000        .0700             1.5000        .1000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3219:6:
+
+ 3219 |    1.4000        .0700             1.5000        .1000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3220:5:
+
+ 3220 |    1.6000        .1500             1.6500        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3220:6:
+
+ 3220 |    1.6000        .1500             1.6500        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3221:5:
+
+ 3221 |    3.6000        .0000             4.0000        .0550
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3221:6:
+
+ 3221 |    3.6000        .0000             4.0000        .0550
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3222:5:
+
+ 3222 |    5.0000        .0350            15.0000        .0350
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3222:6:
+
+ 3222 |    5.0000        .0350            15.0000        .0350
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3223:5:
+
+ 3223 |   18.0000        .0400            20.0000        .0650
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3223:6:
+
+ 3223 |   18.0000        .0400            20.0000        .0650
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3224:5:
+
+ 3224 |   22.0000        .0850            23.0000        .0850
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3224:6:
+
+ 3224 |   22.0000        .0850            23.0000        .0850
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3225:5:
+
+ 3225 |   25.0000        .0600            29.0000        .0300
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3225:6:
+
+ 3225 |   25.0000        .0600            29.0000        .0300
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3226:5:
+
+ 3226 |   32.0000        .0150            50.0000        .0120
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3226:6:
+
+ 3226 |   32.0000        .0150            50.0000        .0120
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3227:5:
+
+ 3227 |   80.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3227:6:
+
+ 3227 |   80.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3229:1:
+
+ 3229 | N2 VIBRATIONAL (V=1)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3229:2:
+
+ 3229 | N2 VIBRATIONAL (V=1)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3230:1:
+
+ 3230 | energy loss        entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3231:2:
+
+ 3231 | 0.291              28        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3231:3:
+
+ 3231 | 0.291              28        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3232:4:
+
+ 3232 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3233:5:
+
+ 3233 |     .0000        .0000              .2910        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3233:6:
+
+ 3233 |     .0000        .0000              .2910        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3234:5:
+
+ 3234 |    1.6000        .0000             1.6500        .2700
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3234:6:
+
+ 3234 |    1.6000        .0000             1.6500        .2700
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3235:5:
+
+ 3235 |    1.7000        .3150             1.8000        .5400
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3235:6:
+
+ 3235 |    1.7000        .3150             1.8000        .5400
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3236:5:
+
+ 3236 |    1.9000       1.4850             2.0000       4.8000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3236:6:
+
+ 3236 |    1.9000       1.4850             2.0000       4.8000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3237:5:
+
+ 3237 |    2.1000       2.5650             2.2000       1.2000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3237:6:
+
+ 3237 |    2.1000       2.5650             2.2000       1.2000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3238:5:
+
+ 3238 |    2.3000       4.5000             2.4000       2.7600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3238:6:
+
+ 3238 |    2.3000       4.5000             2.4000       2.7600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3239:5:
+
+ 3239 |    2.5000       1.5900             2.6000       3.1500
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3239:6:
+
+ 3239 |    2.5000       1.5900             2.6000       3.1500
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3240:5:
+
+ 3240 |    2.7000       1.5450             2.7500        .6000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3240:6:
+
+ 3240 |    2.7000       1.5450             2.7500        .6000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3241:5:
+
+ 3241 |    2.8000       1.3500             2.9000        .5250
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3241:6:
+
+ 3241 |    2.8000       1.3500             2.9000        .5250
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3242:5:
+
+ 3242 |    3.0000        .8700             3.1000       1.1700
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3242:6:
+
+ 3242 |    3.0000        .8700             3.1000       1.1700
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3243:5:
+
+ 3243 |    3.2000        .8550             3.3000        .6600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3243:6:
+
+ 3243 |    3.2000        .8550             3.3000        .6600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3244:5:
+
+ 3244 |    3.4000        .6000             3.5000        .5850
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3244:6:
+
+ 3244 |    3.4000        .6000             3.5000        .5850
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3245:5:
+
+ 3245 |    3.6000        .5700             4.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3245:6:
+
+ 3245 |    3.6000        .5700             4.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3246:5:
+
+ 3246 |  100.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3246:6:
+
+ 3246 |  100.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3248:1:
+
+ 3248 | N2 VIBRATIONAL (V=2)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3248:2:
+
+ 3248 | N2 VIBRATIONAL (V=2)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3249:1:
+
+ 3249 | energy loss        entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3250:2:
+
+ 3250 | 0.59               24        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3250:3:
+
+ 3250 | 0.59               24        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3251:4:
+
+ 3251 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3252:5:
+
+ 3252 |     .0000        .0000              .5900        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3252:6:
+
+ 3252 |     .0000        .0000              .5900        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3253:5:
+
+ 3253 |    1.7000        .0000             1.8000        .0150
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3253:6:
+
+ 3253 |    1.7000        .0000             1.8000        .0150
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3254:5:
+
+ 3254 |    1.9000        .6300             2.0000       1.9350
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3254:6:
+
+ 3254 |    1.9000        .6300             2.0000       1.9350
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3255:5:
+
+ 3255 |    2.1000       3.3000             2.2000       1.4700
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3255:6:
+
+ 3255 |    2.1000       3.3000             2.2000       1.4700
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3256:5:
+
+ 3256 |    2.3000        .5400             2.4000       2.1150
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3256:6:
+
+ 3256 |    2.3000        .5400             2.4000       2.1150
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3257:5:
+
+ 3257 |    2.5000       3.0000             2.6000        .5400
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3257:6:
+
+ 3257 |    2.5000       3.0000             2.6000        .5400
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3258:5:
+
+ 3258 |    2.7000       1.0500             2.7500       1.7250
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3258:6:
+
+ 3258 |    2.7000       1.0500             2.7500       1.7250
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3259:5:
+
+ 3259 |    2.8000       1.2750             2.9000        .3300
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3259:6:
+
+ 3259 |    2.8000       1.2750             2.9000        .3300
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3260:5:
+
+ 3260 |    3.0000        .9000             3.1000        .6450
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3260:6:
+
+ 3260 |    3.0000        .9000             3.1000        .6450
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3261:5:
+
+ 3261 |    3.2000        .3750             3.3000        .3450
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3261:6:
+
+ 3261 |    3.2000        .3750             3.3000        .3450
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3262:5:
+
+ 3262 |    3.4000        .3000             3.5000        .2130
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3262:6:
+
+ 3262 |    3.4000        .3000             3.5000        .2130
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3263:5:
+
+ 3263 |    3.6000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3263:6:
+
+ 3263 |    3.6000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3265:1:
+
+ 3265 | N2 VIBRATIONAL (V=3)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3265:2:
+
+ 3265 | N2 VIBRATIONAL (V=3)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3266:1:
+
+ 3266 | energy loss        entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3267:2:
+
+ 3267 | 0.88               20        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3267:3:
+
+ 3267 | 0.88               20        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3268:4:
+
+ 3268 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3269:5:
+
+ 3269 |     .0000        .0000              .8800        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3269:6:
+
+ 3269 |     .0000        .0000              .8800        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3270:5:
+
+ 3270 |    1.9000        .0000             2.0000        .9600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3270:6:
+
+ 3270 |    1.9000        .0000             2.0000        .9600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3271:5:
+
+ 3271 |    2.1000       2.0550             2.2000       2.7000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3271:6:
+
+ 3271 |    2.1000       2.0550             2.2000       2.7000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3272:5:
+
+ 3272 |    2.3000       1.6950             2.4000        .0750
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3272:6:
+
+ 3272 |    2.3000       1.6950             2.4000        .0750
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3273:5:
+
+ 3273 |    2.5000        .9600             2.6000       1.4700
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3273:6:
+
+ 3273 |    2.5000        .9600             2.6000       1.4700
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3274:5:
+
+ 3274 |    2.7000        .4500             2.7500        .9600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3274:6:
+
+ 3274 |    2.7000        .4500             2.7500        .9600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3275:5:
+
+ 3275 |    2.8000        .5400             2.9000        .8550
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3275:6:
+
+ 3275 |    2.8000        .5400             2.9000        .8550
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3276:5:
+
+ 3276 |    3.0000        .4050             3.1000        .2820
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3276:6:
+
+ 3276 |    3.0000        .4050             3.1000        .2820
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3277:5:
+
+ 3277 |    3.2000        .2910             3.3000        .0615
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3277:6:
+
+ 3277 |    3.2000        .2910             3.3000        .0615
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3278:5:
+
+ 3278 |    3.4000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3278:6:
+
+ 3278 |    3.4000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3280:1:
+
+ 3280 | N2 VIBRATIONAL (V=4)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3280:2:
+
+ 3280 | N2 VIBRATIONAL (V=4)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3281:1:
+
+ 3281 | energy loss        entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3282:2:
+
+ 3282 | 1.17               18        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3282:3:
+
+ 3282 | 1.17               18        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3283:4:
+
+ 3283 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3284:5:
+
+ 3284 |     .0000        .0000             1.1700        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3284:6:
+
+ 3284 |     .0000        .0000             1.1700        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3285:5:
+
+ 3285 |    2.0000        .0000             2.1000        .2025
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3285:6:
+
+ 3285 |    2.0000        .0000             2.1000        .2025
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3286:5:
+
+ 3286 |    2.2000       1.5150             2.3000       2.3850
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3286:6:
+
+ 3286 |    2.2000       1.5150             2.3000       2.3850
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3287:5:
+
+ 3287 |    2.4000       1.4400             2.5000        .5550
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3287:6:
+
+ 3287 |    2.4000       1.4400             2.5000        .5550
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3288:5:
+
+ 3288 |    2.6000        .0825             2.7000       1.2000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3288:6:
+
+ 3288 |    2.6000        .0825             2.7000       1.2000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3289:5:
+
+ 3289 |    2.7500       1.0950             2.8000        .6750
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3289:6:
+
+ 3289 |    2.7500       1.0950             2.8000        .6750
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3290:5:
+
+ 3290 |    2.9000        .0300             3.0000        .3300
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3290:6:
+
+ 3290 |    2.9000        .0300             3.0000        .3300
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3291:5:
+
+ 3291 |    3.1000        .3150             3.2000        .0600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3291:6:
+
+ 3291 |    3.1000        .3150             3.2000        .0600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3292:5:
+
+ 3292 |    3.3000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3292:6:
+
+ 3292 |    3.3000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3294:1:
+
+ 3294 | N2 VIBRATIONAL (V=5)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3294:2:
+
+ 3294 | N2 VIBRATIONAL (V=5)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3295:1:
+
+ 3295 | energy loss        entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3296:2:
+
+ 3296 | 1.47               18        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3296:3:
+
+ 3296 | 1.47               18        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3297:4:
+
+ 3297 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3298:5:
+
+ 3298 |     .0000        .0000             1.4700        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3298:6:
+
+ 3298 |     .0000        .0000             1.4700        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3299:5:
+
+ 3299 |    2.1000        .0000             2.2000        .8250
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3299:6:
+
+ 3299 |    2.1000        .0000             2.2000        .8250
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3300:5:
+
+ 3300 |    2.3000       1.2300             2.4000       1.5300
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3300:6:
+
+ 3300 |    2.3000       1.2300             2.4000       1.5300
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3301:5:
+
+ 3301 |    2.5000       1.4400             2.6000        .3450
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3301:6:
+
+ 3301 |    2.5000       1.4400             2.6000        .3450
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3302:5:
+
+ 3302 |    2.7000        .0225             2.7500        .3450
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3302:6:
+
+ 3302 |    2.7000        .0225             2.7500        .3450
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3303:5:
+
+ 3303 |    2.8000        .5400             2.9000        .6600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3303:6:
+
+ 3303 |    2.8000        .5400             2.9000        .6600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3304:5:
+
+ 3304 |    3.0000        .2175             3.1000        .1050
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3304:6:
+
+ 3304 |    3.0000        .2175             3.1000        .1050
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3305:5:
+
+ 3305 |    3.2000        .3150             3.3000        .1035
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3305:6:
+
+ 3305 |    3.2000        .3150             3.3000        .1035
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3306:5:
+
+ 3306 |    3.4000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3306:6:
+
+ 3306 |    3.4000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3308:1:
+
+ 3308 | N2 VIBRATIONAL (V=6)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3308:2:
+
+ 3308 | N2 VIBRATIONAL (V=6)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3309:1:
+
+ 3309 | energy loss        entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3310:2:
+
+ 3310 | 1.76               16        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3310:3:
+
+ 3310 | 1.76               16        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3311:4:
+
+ 3311 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3312:5:
+
+ 3312 |     .0000        .0000             1.7600        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3312:6:
+
+ 3312 |     .0000        .0000             1.7600        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3313:5:
+
+ 3313 |    2.2000        .0000             2.3000        .0063
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3313:6:
+
+ 3313 |    2.2000        .0000             2.3000        .0063
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3314:5:
+
+ 3314 |    2.4000       1.1250             2.5000       1.7400
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3314:6:
+
+ 3314 |    2.4000       1.1250             2.5000       1.7400
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3315:5:
+
+ 3315 |    2.6000       1.3800             2.7000        .7800
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3315:6:
+
+ 3315 |    2.6000       1.3800             2.7000        .7800
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3316:5:
+
+ 3316 |    2.7500        .4500             2.8000        .3150
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3316:6:
+
+ 3316 |    2.7500        .4500             2.8000        .3150
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3317:5:
+
+ 3317 |    2.9000        .2460             3.0000        .4800
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3317:6:
+
+ 3317 |    2.9000        .2460             3.0000        .4800
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3318:5:
+
+ 3318 |    3.1000        .1635             3.2000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3318:6:
+
+ 3318 |    3.1000        .1635             3.2000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3319:5:
+
+ 3319 |  100.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3319:6:
+
+ 3319 |  100.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3321:1:
+
+ 3321 | N2 VIBRATIONAL (V=7)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3321:2:
+
+ 3321 | N2 VIBRATIONAL (V=7)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3322:1:
+
+ 3322 | energy loss        entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3323:2:
+
+ 3323 | 2.06               18        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3323:3:
+
+ 3323 | 2.06               18        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3324:4:
+
+ 3324 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3325:5:
+
+ 3325 |     .0000        .0000             2.0600        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3325:6:
+
+ 3325 |     .0000        .0000             2.0600        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3326:5:
+
+ 3326 |    2.3000        .0000             2.4000        .0126
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3326:6:
+
+ 3326 |    2.3000        .0000             2.4000        .0126
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3327:5:
+
+ 3327 |    2.5000        .3900             2.6000        .6600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3327:6:
+
+ 3327 |    2.5000        .3900             2.6000        .6600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3328:5:
+
+ 3328 |    2.7000        .9600             2.7500        .7950
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3328:6:
+
+ 3328 |    2.7000        .9600             2.7500        .7950
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3329:5:
+
+ 3329 |    2.8000        .6000             2.9000        .1800
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3329:6:
+
+ 3329 |    2.8000        .6000             2.9000        .1800
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3330:5:
+
+ 3330 |    3.0000        .0063             3.1000        .1920
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3330:6:
+
+ 3330 |    3.0000        .0063             3.1000        .1920
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3331:5:
+
+ 3331 |    3.2000        .2040             3.3000        .0780
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3331:6:
+
+ 3331 |    3.2000        .2040             3.3000        .0780
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3332:5:
+
+ 3332 |    3.4000        .0189             3.5000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3332:6:
+
+ 3332 |    3.4000        .0189             3.5000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3333:5:
+
+ 3333 |  100.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3333:6:
+
+ 3333 |  100.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3335:1:
+
+ 3335 | N2 VIBRATIONAL (V=8)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3335:2:
+
+ 3335 | N2 VIBRATIONAL (V=8)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3336:1:
+
+ 3336 | energy loss        entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3337:2:
+
+ 3337 | 2.35               16        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3337:3:
+
+ 3337 | 2.35               16        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3338:4:
+
+ 3338 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3339:5:
+
+ 3339 |     .0000        .0000             2.3500        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3339:6:
+
+ 3339 |     .0000        .0000             2.3500        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3340:5:
+
+ 3340 |    2.5000        .0000             2.6000        .0189
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3340:6:
+
+ 3340 |    2.5000        .0000             2.6000        .0189
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3341:5:
+
+ 3341 |    2.7000        .3600             2.7500        .3600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3341:6:
+
+ 3341 |    2.7000        .3600             2.7500        .3600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3342:5:
+
+ 3342 |    2.8000        .3300             2.9000        .3450
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3342:6:
+
+ 3342 |    2.8000        .3300             2.9000        .3450
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3343:5:
+
+ 3343 |    3.0000        .2640             3.1000        .0375
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3343:6:
+
+ 3343 |    3.0000        .2640             3.1000        .0375
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3344:5:
+
+ 3344 |    3.2000        .0063             3.3000        .1545
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3344:6:
+
+ 3344 |    3.2000        .0063             3.3000        .1545
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3345:5:
+
+ 3345 |    3.4000        .0252             3.5000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3345:6:
+
+ 3345 |    3.4000        .0252             3.5000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3346:5:
+
+ 3346 |  100.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3346:6:
+
+ 3346 |  100.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3348:1:
+
+ 3348 | N2 ELECTRONIC (A3 V=0-4)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3348:2:
+
+ 3348 | N2 ELECTRONIC (A3 V=0-4)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3349:1:
+
+ 3349 | energy loss        statwt    entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3350:2:
+
+ 3350 | 6.17               0.0       26        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3350:3:
+
+ 3350 | 6.17               0.0       26        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3351:4:
+
+ 3351 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3352:5:
+
+ 3352 |     .0000        .0000             6.1700        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3352:6:
+
+ 3352 |     .0000        .0000             6.1700        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3353:5:
+
+ 3353 |    7.0000        .0010             7.8000        .0028
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3353:6:
+
+ 3353 |    7.0000        .0010             7.8000        .0028
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3354:5:
+
+ 3354 |    8.5000        .0043             9.0000        .0052
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3354:6:
+
+ 3354 |    8.5000        .0043             9.0000        .0052
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3355:5:
+
+ 3355 |   10.0000        .0820            11.0000        .0100
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3355:6:
+
+ 3355 |   10.0000        .0820            11.0000        .0100
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3356:5:
+
+ 3356 |   12.0000        .0120            13.0000        .0130
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3356:6:
+
+ 3356 |   12.0000        .0120            13.0000        .0130
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3357:5:
+
+ 3357 |   14.0000        .0140            16.0000        .0150
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3357:6:
+
+ 3357 |   14.0000        .0140            16.0000        .0150
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3358:5:
+
+ 3358 |   17.0000        .0150            18.0000        .0140
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3358:6:
+
+ 3358 |   17.0000        .0150            18.0000        .0140
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3359:5:
+
+ 3359 |   20.0000        .0120            22.0000        .0100
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3359:6:
+
+ 3359 |   20.0000        .0120            22.0000        .0100
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3360:5:
+
+ 3360 |   24.0000        .0089            26.0000        .0076
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3360:6:
+
+ 3360 |   24.0000        .0089            26.0000        .0076
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3361:5:
+
+ 3361 |   30.0000        .0059            34.0000        .0049
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3361:6:
+
+ 3361 |   30.0000        .0059            34.0000        .0049
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3362:5:
+
+ 3362 |   40.0000        .0039            50.0000        .0034
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3362:6:
+
+ 3362 |   40.0000        .0039            50.0000        .0034
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3363:5:
+
+ 3363 |   70.0000        .0007           150.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3363:6:
+
+ 3363 |   70.0000        .0007           150.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3364:5:
+
+ 3364 |  500.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3364:6:
+
+ 3364 |  500.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3366:1:
+
+ 3366 | N2 ELECTRONIC (A3 V=5-9)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3366:2:
+
+ 3366 | N2 ELECTRONIC (A3 V=5-9)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3367:1:
+
+ 3367 | energy loss        statwt    entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3368:2:
+
+ 3368 | 7.0                0.0       26        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3368:3:
+
+ 3368 | 7.0                0.0       26        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3369:4:
+
+ 3369 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3370:5:
+
+ 3370 |     .0000        .0000             7.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3370:6:
+
+ 3370 |     .0000        .0000             7.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3371:5:
+
+ 3371 |    7.3000        .0020             7.8000        .0050
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3371:6:
+
+ 3371 |    7.3000        .0020             7.8000        .0050
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3372:5:
+
+ 3372 |    8.5000        .0150             9.0000        .0220
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3372:6:
+
+ 3372 |    8.5000        .0150             9.0000        .0220
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3373:5:
+
+ 3373 |   10.0000        .0340            11.0000        .0430
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3373:6:
+
+ 3373 |   10.0000        .0340            11.0000        .0430
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3374:5:
+
+ 3374 |   12.0000        .0500            13.0000        .0550
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3374:6:
+
+ 3374 |   12.0000        .0500            13.0000        .0550
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3375:5:
+
+ 3375 |   14.0000        .0600            16.0000        .0650
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3375:6:
+
+ 3375 |   14.0000        .0600            16.0000        .0650
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3376:5:
+
+ 3376 |   17.0000        .0650            18.0000        .0620
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3376:6:
+
+ 3376 |   17.0000        .0650            18.0000        .0620
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3377:5:
+
+ 3377 |   20.0000        .0530            22.0000        .0450
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3377:6:
+
+ 3377 |   20.0000        .0530            22.0000        .0450
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3378:5:
+
+ 3378 |   24.0000        .0380            26.0000        .0330
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3378:6:
+
+ 3378 |   24.0000        .0380            26.0000        .0330
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3379:5:
+
+ 3379 |   30.0000        .0250            34.0000        .0210
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3379:6:
+
+ 3379 |   30.0000        .0250            34.0000        .0210
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3380:5:
+
+ 3380 |   40.0000        .0120            50.0000        .0140
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3380:6:
+
+ 3380 |   40.0000        .0120            50.0000        .0140
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3381:5:
+
+ 3381 |   70.0000        .0029           150.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3381:6:
+
+ 3381 |   70.0000        .0029           150.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3382:5:
+
+ 3382 |  500.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3382:6:
+
+ 3382 |  500.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3384:1:
+
+ 3384 | N2 ELECTRONIC (B3)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3384:2:
+
+ 3384 | N2 ELECTRONIC (B3)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3385:1:
+
+ 3385 | energy loss        statwt    entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3386:2:
+
+ 3386 | 7.35               0.0       24        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3386:3:
+
+ 3386 | 7.35               0.0       24        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3387:4:
+
+ 3387 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3388:5:
+
+ 3388 |     .0000        .0000             7.3500        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3388:6:
+
+ 3388 |     .0000        .0000             7.3500        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3389:5:
+
+ 3389 |    8.0000        .0362             9.0000        .0938
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3389:6:
+
+ 3389 |    8.0000        .0362             9.0000        .0938
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3390:5:
+
+ 3390 |   10.0000        .1508            11.0000        .1863
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3390:6:
+
+ 3390 |   10.0000        .1508            11.0000        .1863
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3391:5:
+
+ 3391 |   12.0000        .2003            13.0000        .1990
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3391:6:
+
+ 3391 |   12.0000        .2003            13.0000        .1990
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3392:5:
+
+ 3392 |   14.0000        .1816            15.0000        .1615
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3392:6:
+
+ 3392 |   14.0000        .1816            15.0000        .1615
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3393:5:
+
+ 3393 |   16.0000        .1447            17.0000        .1307
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3393:6:
+
+ 3393 |   16.0000        .1447            17.0000        .1307
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3394:5:
+
+ 3394 |   18.0000        .1199            20.0000        .1112
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3394:6:
+
+ 3394 |   18.0000        .1199            20.0000        .1112
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3395:5:
+
+ 3395 |   22.0000        .0951            26.0000        .0804
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3395:6:
+
+ 3395 |   22.0000        .0951            26.0000        .0804
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3396:5:
+
+ 3396 |   30.0000        .0677            34.0000        .0563
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3396:6:
+
+ 3396 |   30.0000        .0677            34.0000        .0563
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3397:5:
+
+ 3397 |   40.0000        .0429            50.0000        .0268
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3397:6:
+
+ 3397 |   40.0000        .0429            50.0000        .0268
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3398:5:
+
+ 3398 |   70.0000        .0067           150.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3398:6:
+
+ 3398 |   70.0000        .0067           150.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3399:5:
+
+ 3399 |  500.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3399:6:
+
+ 3399 |  500.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3401:1:
+
+ 3401 | N2 ELECTRONIC (W3)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3401:2:
+
+ 3401 | N2 ELECTRONIC (W3)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3402:1:
+
+ 3402 | energy loss        statwt    entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3403:2:
+
+ 3403 | 7.36               0.0       26        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3403:3:
+
+ 3403 | 7.36               0.0       26        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3404:4:
+
+ 3404 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3405:5:
+
+ 3405 |     .0000        .0000             7.3600        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3405:6:
+
+ 3405 |     .0000        .0000             7.3600        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3406:5:
+
+ 3406 |    8.0000        .0018             9.0000        .0496
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3406:6:
+
+ 3406 |    8.0000        .0018             9.0000        .0496
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3407:5:
+
+ 3407 |   10.0000        .0804            11.0000        .1112
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3407:6:
+
+ 3407 |   10.0000        .0804            11.0000        .1112
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3408:5:
+
+ 3408 |   12.0000        .1427            14.0000        .2050
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3408:6:
+
+ 3408 |   12.0000        .1427            14.0000        .2050
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3409:5:
+
+ 3409 |   15.0000        .2352            16.0000        .2546
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3409:6:
+
+ 3409 |   15.0000        .2352            16.0000        .2546
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3410:5:
+
+ 3410 |   17.0000        .2519            18.0000        .2345
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3410:6:
+
+ 3410 |   17.0000        .2519            18.0000        .2345
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3411:5:
+
+ 3411 |   20.0000        .1776            22.0000        .1320
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3411:6:
+
+ 3411 |   20.0000        .1776            22.0000        .1320
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3412:5:
+
+ 3412 |   24.0000        .1025            26.0000        .0844
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3412:6:
+
+ 3412 |   24.0000        .1025            26.0000        .0844
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3413:5:
+
+ 3413 |   28.0000        .0724            30.0000        .0630
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3413:6:
+
+ 3413 |   28.0000        .0724            30.0000        .0630
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3414:5:
+
+ 3414 |   34.0000        .0496            40.0000        .0348
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3414:6:
+
+ 3414 |   34.0000        .0496            40.0000        .0348
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3415:5:
+
+ 3415 |   50.0000        .0201            70.0000        .0101
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3415:6:
+
+ 3415 |   50.0000        .0201            70.0000        .0101
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3416:5:
+
+ 3416 |  100.0000        .0047           150.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3416:6:
+
+ 3416 |  100.0000        .0047           150.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3417:5:
+
+ 3417 |  500.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3417:6:
+
+ 3417 |  500.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3419:1:
+
+ 3419 | N2 ELECTRONIC (A3 V=10-)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3419:2:
+
+ 3419 | N2 ELECTRONIC (A3 V=10-)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3420:1:
+
+ 3420 | energy loss        statwt    entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3421:2:
+
+ 3421 | 7.8                0.0       26        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3421:3:
+
+ 3421 | 7.8                0.0       26        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3422:4:
+
+ 3422 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3423:5:
+
+ 3423 |     .0000        .0000             7.8000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3423:6:
+
+ 3423 |     .0000        .0000             7.8000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3424:5:
+
+ 3424 |    8.1000        .0015             8.5000        .0040
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3424:6:
+
+ 3424 |    8.1000        .0015             8.5000        .0040
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3425:5:
+
+ 3425 |    8.7000        .0070             9.0000        .0110
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3425:6:
+
+ 3425 |    8.7000        .0070             9.0000        .0110
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3426:5:
+
+ 3426 |   10.0000        .0290            11.0000        .0440
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3426:6:
+
+ 3426 |   10.0000        .0290            11.0000        .0440
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3427:5:
+
+ 3427 |   12.0000        .0510            13.0000        .0560
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3427:6:
+
+ 3427 |   12.0000        .0510            13.0000        .0560
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3428:5:
+
+ 3428 |   14.0000        .0600            16.0000        .0660
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3428:6:
+
+ 3428 |   14.0000        .0600            16.0000        .0660
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3429:5:
+
+ 3429 |   17.0000        .0670            18.0000        .0630
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3429:6:
+
+ 3429 |   17.0000        .0670            18.0000        .0630
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3430:5:
+
+ 3430 |   20.0000        .0540            22.0000        .0460
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3430:6:
+
+ 3430 |   20.0000        .0540            22.0000        .0460
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3431:5:
+
+ 3431 |   24.0000        .0390            26.0000        .0330
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3431:6:
+
+ 3431 |   24.0000        .0390            26.0000        .0330
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3432:5:
+
+ 3432 |   30.0000        .0260            34.0000        .0210
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3432:6:
+
+ 3432 |   30.0000        .0260            34.0000        .0210
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3433:5:
+
+ 3433 |   40.0000        .0170            50.0000        .0150
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3433:6:
+
+ 3433 |   40.0000        .0170            50.0000        .0150
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3434:5:
+
+ 3434 |   70.0000        .0030           150.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3434:6:
+
+ 3434 |   70.0000        .0030           150.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3435:5:
+
+ 3435 |  500.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3435:6:
+
+ 3435 |  500.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3437:1:
+
+ 3437 | N2 ELECTRONIC (B-3)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3437:2:
+
+ 3437 | N2 ELECTRONIC (B-3)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3438:1:
+
+ 3438 | energy loss        statwt    entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3439:2:
+
+ 3439 | 8.16               0.0       24        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3439:3:
+
+ 3439 | 8.16               0.0       24        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3440:4:
+
+ 3440 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3441:5:
+
+ 3441 |     .0000        .0000             8.1600        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3441:6:
+
+ 3441 |     .0000        .0000             8.1600        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3442:5:
+
+ 3442 |    9.0000        .0107            10.0000        .0235
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3442:6:
+
+ 3442 |    9.0000        .0107            10.0000        .0235
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3443:5:
+
+ 3443 |   11.0000        .0369            12.0000        .0496
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3443:6:
+
+ 3443 |   11.0000        .0369            12.0000        .0496
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3444:5:
+
+ 3444 |   13.0000        .0630            14.0000        .0757
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3444:6:
+
+ 3444 |   13.0000        .0630            14.0000        .0757
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3445:5:
+
+ 3445 |   15.0000        .0838            16.0000        .0764
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3445:6:
+
+ 3445 |   15.0000        .0838            16.0000        .0764
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3446:5:
+
+ 3446 |   17.0000        .0616            18.0000        .0489
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3446:6:
+
+ 3446 |   17.0000        .0616            18.0000        .0489
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3447:5:
+
+ 3447 |   19.0000        .0409            20.0000        .0362
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3447:6:
+
+ 3447 |   19.0000        .0409            20.0000        .0362
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3448:5:
+
+ 3448 |   22.0000        .0315            26.0000        .0268
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3448:6:
+
+ 3448 |   22.0000        .0315            26.0000        .0268
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3449:5:
+
+ 3449 |   30.0000        .0228            34.0000        .0194
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3449:6:
+
+ 3449 |   30.0000        .0228            34.0000        .0194
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3450:5:
+
+ 3450 |   40.0000        .0161            50.0000        .0127
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3450:6:
+
+ 3450 |   40.0000        .0161            50.0000        .0127
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3451:5:
+
+ 3451 |   70.0000        .0067           150.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3451:6:
+
+ 3451 |   70.0000        .0067           150.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3452:5:
+
+ 3452 |  500.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3452:6:
+
+ 3452 |  500.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3454:1:
+
+ 3454 | N2 ELECTRONIC (A-1)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3454:2:
+
+ 3454 | N2 ELECTRONIC (A-1)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3455:1:
+
+ 3455 | energy loss        statwt    entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3456:2:
+
+ 3456 | 8.4                0.0       20        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3456:3:
+
+ 3456 | 8.4                0.0       20        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3457:4:
+
+ 3457 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3458:5:
+
+ 3458 |     .0000        .0000             8.4000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3458:6:
+
+ 3458 |     .0000        .0000             8.4000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3459:5:
+
+ 3459 |    9.0000        .0067            11.0000        .0302
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3459:6:
+
+ 3459 |    9.0000        .0067            11.0000        .0302
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3460:5:
+
+ 3460 |   13.0000        .0536            14.0000        .0643
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3460:6:
+
+ 3460 |   13.0000        .0536            14.0000        .0643
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3461:5:
+
+ 3461 |   15.0000        .0697            16.0000        .0570
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3461:6:
+
+ 3461 |   15.0000        .0697            16.0000        .0570
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3462:5:
+
+ 3462 |   17.0000        .0429            18.0000        .0348
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3462:6:
+
+ 3462 |   17.0000        .0429            18.0000        .0348
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3463:5:
+
+ 3463 |   19.0000        .0308            20.0000        .0275
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3463:6:
+
+ 3463 |   19.0000        .0308            20.0000        .0275
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3464:5:
+
+ 3464 |   24.0000        .0201            30.0000        .0154
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3464:6:
+
+ 3464 |   24.0000        .0201            30.0000        .0154
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3465:5:
+
+ 3465 |   40.0000        .0124            50.0000        .0121
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3465:6:
+
+ 3465 |   40.0000        .0124            50.0000        .0121
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3466:5:
+
+ 3466 |   70.0000        .0101           150.0000        .0067
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3466:6:
+
+ 3466 |   70.0000        .0101           150.0000        .0067
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3467:5:
+
+ 3467 |  500.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3467:6:
+
+ 3467 |  500.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3469:1:
+
+ 3469 | N2 ELECTRONIC (A1)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3469:2:
+
+ 3469 | N2 ELECTRONIC (A1)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3470:1:
+
+ 3470 | energy loss        statwt    entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3471:2:
+
+ 3471 | 8.55               0.0       24        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3471:3:
+
+ 3471 | 8.55               0.0       24        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3472:4:
+
+ 3472 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3473:5:
+
+ 3473 |     .0000        .0000             8.5500        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3473:6:
+
+ 3473 |     .0000        .0000             8.5500        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3474:5:
+
+ 3474 |    9.0000        .0127            14.0000        .1474
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3474:6:
+
+ 3474 |    9.0000        .0127            14.0000        .1474
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3475:5:
+
+ 3475 |   15.0000        .1715            16.0000        .1916
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3475:6:
+
+ 3475 |   15.0000        .1715            16.0000        .1916
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3476:5:
+
+ 3476 |   17.0000        .2023            18.0000        .1990
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3476:6:
+
+ 3476 |   17.0000        .2023            18.0000        .1990
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3477:5:
+
+ 3477 |   19.0000        .1923            20.0000        .1849
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3477:6:
+
+ 3477 |   19.0000        .1923            20.0000        .1849
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3478:5:
+
+ 3478 |   24.0000        .1621            26.0000        .1528
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3478:6:
+
+ 3478 |   24.0000        .1621            26.0000        .1528
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3479:5:
+
+ 3479 |   30.0000        .1367            40.0000        .1065
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3479:6:
+
+ 3479 |   30.0000        .1367            40.0000        .1065
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3480:5:
+
+ 3480 |   50.0000        .0851            70.0000        .0603
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3480:6:
+
+ 3480 |   50.0000        .0851            70.0000        .0603
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3481:5:
+
+ 3481 |  100.0000        .0402           150.0000        .0268
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3481:6:
+
+ 3481 |  100.0000        .0402           150.0000        .0268
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3482:5:
+
+ 3482 |  200.0000        .0201           250.0000        .0161
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3482:6:
+
+ 3482 |  200.0000        .0201           250.0000        .0161
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3483:5:
+
+ 3483 |  300.0000        .0134           500.0000        .0082
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3483:6:
+
+ 3483 |  300.0000        .0134           500.0000        .0082
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3484:5:
+
+ 3484 |  700.0000        .0060          1000.0000        .0042
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3484:6:
+
+ 3484 |  700.0000        .0060          1000.0000        .0042
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3486:1:
+
+ 3486 | N2 ELECTRONIC (W1)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3486:2:
+
+ 3486 | N2 ELECTRONIC (W1)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3487:1:
+
+ 3487 | energy loss        statwt    entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3488:2:
+
+ 3488 | 8.89               0.0       20        1.0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3488:3:
+
+ 3488 | 8.89               0.0       20        1.0
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3489:4:
+
+ 3489 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3490:5:
+
+ 3490 |     .0000        .0000             8.8900        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3490:6:
+
+ 3490 |     .0000        .0000             8.8900        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3491:5:
+
+ 3491 |    9.0000        .0013            10.0000        .0261
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3491:6:
+
+ 3491 |    9.0000        .0013            10.0000        .0261
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3492:5:
+
+ 3492 |   11.0000        .0476            12.0000        .0663
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3492:6:
+
+ 3492 |   11.0000        .0476            12.0000        .0663
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3493:5:
+
+ 3493 |   13.0000        .0784            14.0000        .0771
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3493:6:
+
+ 3493 |   13.0000        .0784            14.0000        .0771
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3494:5:
+
+ 3494 |   15.0000        .0670            16.0000        .0543
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3494:6:
+
+ 3494 |   15.0000        .0670            16.0000        .0543
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3495:5:
+
+ 3495 |   17.0000        .0442            18.0000        .0375
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3495:6:
+
+ 3495 |   17.0000        .0442            18.0000        .0375
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3496:5:
+
+ 3496 |   20.0000        .0288            22.0000        .0241
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3496:6:
+
+ 3496 |   20.0000        .0288            22.0000        .0241
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3497:5:
+
+ 3497 |   30.0000        .0154            38.0000        .0094
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3497:6:
+
+ 3497 |   30.0000        .0154            38.0000        .0094
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3498:5:
+
+ 3498 |   50.0000        .0047           150.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3498:6:
+
+ 3498 |   50.0000        .0047           150.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3499:5:
+
+ 3499 |  500.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3499:6:
+
+ 3499 |  500.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3501:1:
+
+ 3501 | N2 ELECTRONIC (C3)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3501:2:
+
+ 3501 | N2 ELECTRONIC (C3)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3502:1:
+
+ 3502 | energy loss        statwt    entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3503:3:
+
+ 3503 | 11.03              0.0       30        1.0
+      |   1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3503:4:
+
+ 3503 | 11.03              0.0       30        1.0
+      |    1
+Error: Invalid character in name at (1)
+elendif77.f:3504:4:
+
+ 3504 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3505:5:
+
+ 3505 |     .0000        .0000            11.0300        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3505:6:
+
+ 3505 |     .0000        .0000            11.0300        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3506:5:
+
+ 3506 |   11.5000        .0405            12.0000        .0930
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3506:6:
+
+ 3506 |   11.5000        .0405            12.0000        .0930
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3507:5:
+
+ 3507 |   12.5000        .1965            13.0000        .4350
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3507:6:
+
+ 3507 |   12.5000        .1965            13.0000        .4350
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3508:5:
+
+ 3508 |   13.5000        .7360            13.8000        .9300
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3508:6:
+
+ 3508 |   13.5000        .7360            13.8000        .9300
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3509:5:
+
+ 3509 |   14.0000        .9750            14.2000        .9600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3509:6:
+
+ 3509 |   14.0000        .9750            14.2000        .9600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3510:5:
+
+ 3510 |   14.5000        .9450            15.0000        .8250
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3510:6:
+
+ 3510 |   14.5000        .9450            15.0000        .8250
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3511:5:
+
+ 3511 |   16.0000        .6450            17.0000        .5250
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3511:6:
+
+ 3511 |   16.0000        .6450            17.0000        .5250
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3512:5:
+
+ 3512 |   18.0000        .4500            19.0000        .4050
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3512:6:
+
+ 3512 |   18.0000        .4500            19.0000        .4050
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3513:5:
+
+ 3513 |   20.0000        .3750            22.0000        .3150
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3513:6:
+
+ 3513 |   20.0000        .3750            22.0000        .3150
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3514:5:
+
+ 3514 |   24.0000        .2655            26.0000        .2250
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3514:6:
+
+ 3514 |   24.0000        .2655            26.0000        .2250
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3515:5:
+
+ 3515 |   28.0000        .2085            30.0000        .1665
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3515:6:
+
+ 3515 |   28.0000        .2085            30.0000        .1665
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3516:5:
+
+ 3516 |   36.0000        .1170            40.0000        .0945
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3516:6:
+
+ 3516 |   36.0000        .1170            40.0000        .0945
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3517:5:
+
+ 3517 |   50.0000        .0585            70.0000        .0225
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3517:6:
+
+ 3517 |   50.0000        .0585            70.0000        .0225
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3518:5:
+
+ 3518 |  100.0000        .0023           150.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3518:6:
+
+ 3518 |  100.0000        .0023           150.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3519:5:
+
+ 3519 |  500.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3519:6:
+
+ 3519 |  500.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3521:1:
+
+ 3521 | N2 ELECTRONIC (E3)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3521:2:
+
+ 3521 | N2 ELECTRONIC (E3)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3522:1:
+
+ 3522 | energy loss        statwt    entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3523:3:
+
+ 3523 | 11.88              0.0       18        1.0
+      |   1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3523:4:
+
+ 3523 | 11.88              0.0       18        1.0
+      |    1
+Error: Invalid character in name at (1)
+elendif77.f:3524:4:
+
+ 3524 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3525:5:
+
+ 3525 |     .0000        .0000            11.8700        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3525:6:
+
+ 3525 |     .0000        .0000            11.8700        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3526:5:
+
+ 3526 |   12.9200        .0496            12.7000        .0007
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3526:6:
+
+ 3526 |   12.9200        .0496            12.7000        .0007
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3527:5:
+
+ 3527 |   17.0000        .0034            19.0000        .0042
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3527:6:
+
+ 3527 |   17.0000        .0034            19.0000        .0042
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3528:5:
+
+ 3528 |   20.0000        .0047            22.0000        .0052
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3528:6:
+
+ 3528 |   20.0000        .0047            22.0000        .0052
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3529:5:
+
+ 3529 |   24.0000        .0054            26.0000        .0054
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3529:6:
+
+ 3529 |   24.0000        .0054            26.0000        .0054
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3530:5:
+
+ 3530 |   28.0000        .0044            30.0000        .0034
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3530:6:
+
+ 3530 |   28.0000        .0044            30.0000        .0034
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3531:5:
+
+ 3531 |   32.0000        .0027            40.0000        .0012
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3531:6:
+
+ 3531 |   32.0000        .0027            40.0000        .0012
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3532:5:
+
+ 3532 |   50.0000        .0005           150.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3532:6:
+
+ 3532 |   50.0000        .0005           150.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3533:5:
+
+ 3533 |  500.0000        .0000          1000.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3533:6:
+
+ 3533 |  500.0000        .0000          1000.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3535:1:
+
+ 3535 | N2 ELECTRONIC (A1)
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3535:2:
+
+ 3535 | N2 ELECTRONIC (A1)
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3536:1:
+
+ 3536 | energy loss        statwt    entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3537:3:
+
+ 3537 | 12.25              0.0       24        1.0
+      |   1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3537:4:
+
+ 3537 | 12.25              0.0       24        1.0
+      |    1
+Error: Invalid character in name at (1)
+elendif77.f:3538:4:
+
+ 3538 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3539:5:
+
+ 3539 |     .0000        .0000            12.2500        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3539:6:
+
+ 3539 |     .0000        .0000            12.2500        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3540:5:
+
+ 3540 |   13.0000        .0054            15.0000        .0188
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3540:6:
+
+ 3540 |   13.0000        .0054            15.0000        .0188
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3541:5:
+
+ 3541 |   16.0000        .0248            17.0000        .0302
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3541:6:
+
+ 3541 |   16.0000        .0248            17.0000        .0302
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3542:5:
+
+ 3542 |   18.0000        .0348            19.0000        .0382
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3542:6:
+
+ 3542 |   18.0000        .0348            19.0000        .0382
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3543:5:
+
+ 3543 |   20.0000        .0389            22.0000        .0342
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3543:6:
+
+ 3543 |   20.0000        .0389            22.0000        .0342
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3544:5:
+
+ 3544 |   24.0000        .0275            26.0000        .0228
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3544:6:
+
+ 3544 |   24.0000        .0275            26.0000        .0228
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3545:5:
+
+ 3545 |   30.0000        .0154            36.0000        .0114
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3545:6:
+
+ 3545 |   30.0000        .0154            36.0000        .0114
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3546:5:
+
+ 3546 |   40.0000        .0107            50.0000        .0090
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3546:6:
+
+ 3546 |   40.0000        .0107            50.0000        .0090
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3547:5:
+
+ 3547 |   70.0000        .0068           100.0000        .0050
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3547:6:
+
+ 3547 |   70.0000        .0068           100.0000        .0050
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3548:5:
+
+ 3548 |  150.0000        .0030           200.0000        .0029
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3548:6:
+
+ 3548 |  150.0000        .0030           200.0000        .0029
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3549:5:
+
+ 3549 |  300.0000        .0020           500.0000        .0013
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3549:6:
+
+ 3549 |  300.0000        .0020           500.0000        .0013
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3550:5:
+
+ 3550 |  700.0000        .0010          1000.0000        .0008
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3550:6:
+
+ 3550 |  700.0000        .0010          1000.0000        .0008
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3552:1:
+
+ 3552 | N2 SUM OF SINGLET STATES
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3552:2:
+
+ 3552 | N2 SUM OF SINGLET STATES
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3553:1:
+
+ 3553 | energy loss        statwt    entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3554:3:
+
+ 3554 | 13.0               0.0       22        1.0
+      |   1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3554:4:
+
+ 3554 | 13.0               0.0       22        1.0
+      |    1
+Error: Invalid character in name at (1)
+elendif77.f:3555:4:
+
+ 3555 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3556:5:
+
+ 3556 |     .0000        .0000            13.0000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3556:6:
+
+ 3556 |     .0000        .0000            13.0000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3557:5:
+
+ 3557 |   14.0000        .0810            15.0000        .1900
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3557:6:
+
+ 3557 |   14.0000        .0810            15.0000        .1900
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3558:5:
+
+ 3558 |   16.0000        .2500            17.0000        .4200
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3558:6:
+
+ 3558 |   16.0000        .2500            17.0000        .4200
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3559:5:
+
+ 3559 |   18.0000        .5200            20.0000        .7500
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3559:6:
+
+ 3559 |   18.0000        .5200            20.0000        .7500
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3560:5:
+
+ 3560 |   22.0000        .9600            25.0000       1.1900
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3560:6:
+
+ 3560 |   22.0000        .9600            25.0000       1.1900
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3561:5:
+
+ 3561 |   30.0000       1.4800            40.0000       1.6500
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3561:6:
+
+ 3561 |   30.0000       1.4800            40.0000       1.6500
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3562:5:
+
+ 3562 |   60.0000       1.7600            80.0000       1.6800
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3562:6:
+
+ 3562 |   60.0000       1.7600            80.0000       1.6800
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3563:5:
+
+ 3563 |  100.0000       1.5800           150.0000       1.3300
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3563:6:
+
+ 3563 |  100.0000       1.5800           150.0000       1.3300
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3564:5:
+
+ 3564 |  200.0000       1.1600           250.0000       1.0500
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3564:6:
+
+ 3564 |  200.0000       1.1600           250.0000       1.0500
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3565:5:
+
+ 3565 |  300.0000        .9600           500.0000        .7400
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3565:6:
+
+ 3565 |  300.0000        .9600           500.0000        .7400
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3566:5:
+
+ 3566 |  700.0000        .6400          1000.0000        .5300
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3566:6:
+
+ 3566 |  700.0000        .6400          1000.0000        .5300
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3568:1:
+
+ 3568 | N2 IONIZATION
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3568:2:
+
+ 3568 | N2 IONIZATION
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3569:1:
+
+ 3569 | energy loss        statwt    entries   scale
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3570:3:
+
+ 3570 | 15.6               0.0       28        1.0
+      |   1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3570:4:
+
+ 3570 | 15.6               0.0       28        1.0
+      |    1
+Error: Invalid character in name at (1)
+elendif77.f:3571:4:
+
+ 3571 |    Energy   Cross Section          Energy   Cross Section
+      |    1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3572:5:
+
+ 3572 |     .0000        .0000            15.6000        .0000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3572:6:
+
+ 3572 |     .0000        .0000            15.6000        .0000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3573:5:
+
+ 3573 |   16.0000        .0210            16.5000        .0460
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3573:6:
+
+ 3573 |   16.0000        .0210            16.5000        .0460
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3574:5:
+
+ 3574 |   17.0000        .0710            17.5000        .0980
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3574:6:
+
+ 3574 |   17.0000        .0710            17.5000        .0980
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3575:5:
+
+ 3575 |   18.0000        .1290            18.5000        .1630
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3575:6:
+
+ 3575 |   18.0000        .1290            18.5000        .1630
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3576:5:
+
+ 3576 |   19.0000        .1980            19.5000        .2290
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3576:6:
+
+ 3576 |   19.0000        .1980            19.5000        .2290
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3577:5:
+
+ 3577 |   20.0000        .2690            21.0000        .3420
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3577:6:
+
+ 3577 |   20.0000        .2690            21.0000        .3420
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3578:5:
+
+ 3578 |   22.0000        .4160            23.0000        .4900
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3578:6:
+
+ 3578 |   22.0000        .4160            23.0000        .4900
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3579:5:
+
+ 3579 |   25.0000        .6370            30.0000       1.0300
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3579:6:
+
+ 3579 |   25.0000        .6370            30.0000       1.0300
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3580:5:
+
+ 3580 |   34.0000       1.2600            45.0000       1.7700
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3580:6:
+
+ 3580 |   34.0000       1.2600            45.0000       1.7700
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3581:5:
+
+ 3581 |   60.0000       2.1700            75.0000       2.3800
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3581:6:
+
+ 3581 |   60.0000       2.1700            75.0000       2.3800
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3582:5:
+
+ 3582 |  100.0000       2.5200           150.0000       2.4400
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3582:6:
+
+ 3582 |  100.0000       2.5200           150.0000       2.4400
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3583:5:
+
+ 3583 |  200.0000       2.2600           300.0000       1.9100
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3583:6:
+
+ 3583 |  200.0000       2.2600           300.0000       1.9100
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3584:5:
+
+ 3584 |  500.0000       1.4500           700.0000       1.1600
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3584:6:
+
+ 3584 |  500.0000       1.4500           700.0000       1.1600
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3585:5:
+
+ 3585 | 1000.0000        .9200          1500.0000        .8000
+      |     1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3585:6:
+
+ 3585 | 1000.0000        .9200          1500.0000        .8000
+      |      1
+Error: Invalid character in name at (1)
+elendif77.f:3587:1:
+
+ 3587 | e/n      deltaz    zmatrx    iend
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3587:2:
+
+ 3587 | e/n      deltaz    zmatrx    iend
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3588:2:
+
+ 3588 | 8.0e-17  0.025     5.0.      1
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3588:3:
+
+ 3588 | 8.0e-17  0.025     5.0.      1
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3590:1:
+
+ 3590 | e/n      deltaz    zmatrx    iend
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3590:2:
+
+ 3590 | e/n      deltaz    zmatrx    iend
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3591:2:
+
+ 3591 | 6.0e-17  0.025     5.0.      1
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3591:3:
+
+ 3591 | 6.0e-17  0.025     5.0.      1
+      |   1
+Error: Invalid character in name at (1)
+elendif77.f:3593:1:
+
+ 3593 | e/n      deltaz    zmatrx    iend
+      | 1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3593:2:
+
+ 3593 | e/n      deltaz    zmatrx    iend
+      |  1
+Error: Invalid character in name at (1)
+elendif77.f:3594:2:
+
+ 3594 | 0.       0.        0.        0
+      |  1
+Error: Non-numeric character in statement label at (1)
+elendif77.f:3594:10:
+
+ 3594 | 0.       0.        0.        0
+      |          1
+Error: Invalid character in name at (1)
+elendif77.f:2714:19:
+
+ 2712 |       DO 50 i = 1, 5
+      |                                                                        2
+ 2713 |           DO 50 j = 1, 20
+ 2714 |               iold(i,j) = 1
+      |                   1
+Warning: Array reference at (1) out of bounds (5 > 2) in loop beginning at (2)
+elendif77.f:2509:15:
+
+ 2508 |       DO 50 i = 1, 5
+      |                                                                        2
+ 2509 |           kold(i) = 1
+      |               1
+Warning: Array reference at (1) out of bounds (5 > 2) in loop beginning at (2)
+elendif77.f:2091:18:
+
+ 2091 |       CALL finitl(b,dz,n*dz,edens,n)
+      |                  1
+Warning: Rank mismatch in argument 'b' at (1) (scalar and rank-1) [-Wargument-mismatch]
+elendif77.f:3011:19:
+
+ 3011 |       DATA aster/1h*/
+      |                   1
+Warning: Extension: Conversion from HOLLERITH to REAL(4) at (1)
+elendif77.f:3010:24:
+
+ 3010 |       DATA blank,char/1h ,1h1,1h2,1h3,1h4,1h5,1h6,1h7,1h8,1h9/
+      |                        1
+Warning: Extension: Conversion from HOLLERITH to REAL(4) at (1)
+elendif77.f:3010:28:
+
+ 3010 |       DATA blank,char/1h ,1h1,1h2,1h3,1h4,1h5,1h6,1h7,1h8,1h9/
+      |                            1
+Warning: Extension: Conversion from HOLLERITH to REAL(4) at (1)
+elendif77.f:3010:32:
+
+ 3010 |       DATA blank,char/1h ,1h1,1h2,1h3,1h4,1h5,1h6,1h7,1h8,1h9/
+      |                                1
+Warning: Extension: Conversion from HOLLERITH to REAL(4) at (1)
+elendif77.f:3010:36:
+
+ 3010 |       DATA blank,char/1h ,1h1,1h2,1h3,1h4,1h5,1h6,1h7,1h8,1h9/
+      |                                    1
+Warning: Extension: Conversion from HOLLERITH to REAL(4) at (1)
+elendif77.f:3010:40:
+
+ 3010 |       DATA blank,char/1h ,1h1,1h2,1h3,1h4,1h5,1h6,1h7,1h8,1h9/
+      |                                        1
+Warning: Extension: Conversion from HOLLERITH to REAL(4) at (1)
+elendif77.f:3010:44:
+
+ 3010 |       DATA blank,char/1h ,1h1,1h2,1h3,1h4,1h5,1h6,1h7,1h8,1h9/
+      |                                            1
+Warning: Extension: Conversion from HOLLERITH to REAL(4) at (1)
+elendif77.f:3010:48:
+
+ 3010 |       DATA blank,char/1h ,1h1,1h2,1h3,1h4,1h5,1h6,1h7,1h8,1h9/
+      |                                                1
+Warning: Extension: Conversion from HOLLERITH to REAL(4) at (1)
+elendif77.f:3010:52:
+
+ 3010 |       DATA blank,char/1h ,1h1,1h2,1h3,1h4,1h5,1h6,1h7,1h8,1h9/
+      |                                                    1
+Warning: Extension: Conversion from HOLLERITH to REAL(4) at (1)
+elendif77.f:3010:56:
+
+ 3010 |       DATA blank,char/1h ,1h1,1h2,1h3,1h4,1h5,1h6,1h7,1h8,1h9/
+      |                                                        1
+Warning: Extension: Conversion from HOLLERITH to REAL(4) at (1)
+elendif77.f:3010:60:
+
+ 3010 |       DATA blank,char/1h ,1h1,1h2,1h3,1h4,1h5,1h6,1h7,1h8,1h9/
+      |                                                            1
+Warning: Extension: Conversion from HOLLERITH to REAL(4) at (1)
