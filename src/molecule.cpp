@@ -13,17 +13,17 @@ void Molecule::comp_charges(){
     }
 }
 
-double orb_charge(orbital_t orb){
+double orb_charge(orbital_t *orb){
     for (size_t n = 1; n <= BOUND_MAX_N; n++) {
         for (size_t l = 0; l < n; l++) {
-            q -= orb.bound[n-1][l];
+            q -= orb->bound[n-1][l];
         }
     }
 }
 
-orbital_t Molecule::allocate_orb(int Z){
+orbital_t *Molecule::allocate_orb(int Z){
     // Initialises to a ground state containing num electrons
-    orbital_t orb;
+    orbital_t *orb = new orbital_t;
     orb.bound.resize(BOUND_MAX_N);
     for (size_t n = 1; n <= BOUND_MAX_N; n++) {
         orb.bound[n-1] = new occ_t[n];
@@ -32,16 +32,33 @@ orbital_t Molecule::allocate_orb(int Z){
     // Degeneracy given by 2(2l+1)
     // Allocate in order 1s, 2s, 2p, 3s, 3p, 4s, 3d,
     // TODO: allocate in appropriate order
-    return orb;
+    return &orb;
 }
 
-void Molecule::deallocate_orb(orbital_t orb){
+void Molecule::deallocate_orb(orbital_t* orb){
     for (size_t n = 1; n <= BOUND_MAX_N; n++) {
-        delete[] orb.bound[n-1];
+        delete[] orb->bound[n-1];
     }
 }
 
+void Molecule::timestep(){
+    for (size_t a = 0; a < orbitals.size(); a++) {
+        orb_update(orbitals[i]);
+    }
+}
 
+void orb_update(orbital_t orb){
+    double delta = 0;
+    for (size_t n = 0; n < BOUND_MAX_N; n++) {
+        for (size_t l = 0; l < n; l++) {
+            orb.bound[n-1][l] += calc_orb_delta(n,l);
+        }
+    }
+}
+
+double calc_orb_delta(orbital_t orb, unsigned n, unsigned l){
+
+}
 
 //
 // void print_bound(orbital_t orb){

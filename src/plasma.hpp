@@ -1,16 +1,36 @@
+#ifndef PLASMA_HPP
+#define PLASMA_HPP
+
+#include <gsl/integration>
+
+/*
+Dimensions:
+    NPTSF = number of points in finite-differenced electron energy
+            distribution function
+    NSPECIES = number of different chemical species that the code can handle
+    NLEV = maximum number of states or levels allowed for each species
+*/
+#define NPTSF 10000
+#define EMAX 50000
+#define EMIN 0
+// measured in eV
+// Consider gridding this differently
+
 
 
 /*
-Dimensions:                                                         ABLX0062
-    NPTSF = number of points in finite-differenced electron energy     ABLX0063
-            distribution function                                      ABLX0064
-    NSPECIES = number of different chemical species that the code can handleABLX0069
-    NLEV = maximum number of states or levels allowed for each species ABLX0070
+Represents the electron plasma in the vicinity of the ionised molecule
+f[i] - sclar electron distribution function
 */
-
 class Plasma{
 public:
-    Plasma(int nptsf);
+    Plasma(double vmax);
+    void simulate(int nts);
+    void simulate(double T);
 private:
-    double f[];
-}
+    double f[NPTSF];
+    double dt;
+    void ts();
+};
+
+#endif
