@@ -2,4 +2,5 @@
 old
 build
 bin
+test_bin
 .DS_STORE

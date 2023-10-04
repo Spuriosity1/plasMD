@@ -1,36 +1,47 @@
 
 
-CC := g++
 
-SRCDIR := src
-BUILDDIR := build
-TARGET := bin/plasMD
+CXXFLAGS= -std=c++17 -pedantic -Wall -fopenmp
+CXXOPTS= -O0 -g
 
-SRCEXT := cpp
-SOURCES := $(shell find $(SRCDIR) -type f -name *.$(SRCEXT))
-OBJECTS := $(patsubst $(SRCDIR)/%,$(BUILDDIR)/%,$(SOURCES:.$(SRCEXT)=.o))
-CFLAGS := -g -Wall -std=c++11
-LIB := -L lib
-INC := -I include /usr/local/Cellar/nlohmann-json/*/include
+INC_PATH= -I${HOME}/include
+LIB_PATH= -L${HOME}/lib
+LIB= -lm -lblas -llapack -lfftw3
 
-$(TARGET): $(OBJECTS)
-	@echo " Linking..."
-	@echo " $(CC) $^ -o $(TARGET) $(LIB)"; $(CC) $^ -o $(TARGET) $(LIB)
+SRC=src
+BIN=bin
+BUILD=build
 
-$(BUILDDIR)/%.o: $(SRCDIR)/%.$(SRCEXT)
-	@mkdir -p $(BUILDDIR) bin
-	@echo " $(CC) $(CFLAGS) $(INC) -c -o $@ $<"; $(CC) $(CFLAGS) $(INC) -c -o $@ $<
 
-clean:
-	@echo " Cleaning...";
-	@echo " $(RM) -r $(BUILDDIR) $(TARGET)"; $(RM) -r $(BUILDDIR) $(TARGET)
+TESTS=tests
+TEST_BIN=test_bin
 
-# Tests
-tester:
-	$(CC) $(CFLAGS) test/tester.cpp $(INC) $(LIB) -o bin/tester
 
-# Spikes
-ticket:
-	$(CC) $(CFLAGS) spikes/ticket.cpp $(INC) $(LIB) -o bin/ticket
+DEPS := $(wildcard $(BUILD)/*.d)
+ifneq ($(DEPS),)
+include $(DEPS)
+endif
+
+# Builds objects from source
+$(BUILD)/%.o: $(SRC)/%.cpp
+	$(CXX) $(CXXFLAGS) $(CXXOPTS) $(INC_PATH) -MMD -MP $< -c -o $@
+
+
+$(TEST_BIN)/%: $(TESTS)/%.cpp
+	$(CXX) $(CXXFLAGS) $(CXXOPTS) $(INC_PATH) $(LDFLAGS) $(LIB_PATH) $< -o $@ $(LIB)
+
+# Generic linker for executables
+%: $(BUILD)/%.o
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) $(LIB_PATH) -o $(BIN)/$@ $< $(LIB)
+
+# Disallow secondary compilation
+%: %.cpp
+
+.SECONDARY:
 
 .PHONY: clean
+
+
+clean:
+	rm $(BUILD)/**
+
